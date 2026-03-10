@@ -30,6 +30,7 @@
             list-style: none;
             display: flex;
             gap: 1rem;
+            justify-content:center;
         }
         nav a {
             color: #fff;
@@ -48,13 +49,37 @@
             padding: 1rem;
             margin-top: 2rem;
         }
-    </style>
+        .form-group {
+            margin-bottom: 1rem;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            
+        }
+        .logo h1 {
+            font-size: 1.5rem;
+            color: #0fec1e;
+            allign-items: left;
+            display: flex;
+            justify-content: left;
+
+        }
+        .card {
+            border: 1px solid #ef8411;
+            border-radius: 10px;
+            padding: 7px;
+            text-align: center;
+            align-items: center;
+            width: 300px;
+        }
+        
+    </style>    
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>E-Commerce Shop</h1>
+                <h1>Wow_Scents  Shop</h1>
             </div>
             <ul>
                 <li><a href="{% url 'home' %}">Home</a></li>
@@ -70,7 +95,7 @@
     </main>
     
     <footer>
-        <p>&copy; 2026 E-Comm Shop. All rights reserved.</p>
+        <p>&copy; 2026 Wow_Scents  Shop. All rights reserved.</p>
     </footer>
 </body>
 </html>
